@@ -1,0 +1,19 @@
+{
+  "name": "church-websites",
+  "repo": "fs-components/church-websites",
+  "description": "Add the Church Websites mega-menu to the English header-footer",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "eldargab/load-script": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "church-websites.css"
+  ]
+}

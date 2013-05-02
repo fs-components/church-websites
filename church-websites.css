@@ -1,0 +1,54 @@
+#ldsgh-button a span:after {
+  content: '▼';
+  font-size: 8px;
+  margin-left: 6px;
+}
+
+div#ldsgh {
+  display: none;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  div#ldsgh .ldsgh-wrapper {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  div#ldsgh .ldsgh-wrapper {
+    width: 940px;
+  }
+}
+
+@media (min-width: 980px) {
+  #global-engage-header #church-sites {
+    width: 119px;
+  }
+  div#ldsgh {
+    display: block;
+  }
+  div#ldsgh .ldsgh-wrapper a {
+    background: #ffffff;
+    color: #707070;
+    font-family: proximanova;
+    font-size: 14px;
+    margin: 0 -15px 0 15px;
+    right: 0;
+    text-transform: none;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+    -webkit-text-shadow: none;
+       -moz-text-shadow: none;
+            text-shadow: none;
+  }
+  div#ldsgh .ldsgh-wrapper a:hover {
+    text-decoration: underline;
+  }
+  div#ldsgh .ldsgh-wrapper a span {
+    background: transparent;
+    opacity: 1;
+    padding: 0;
+  }
+}
